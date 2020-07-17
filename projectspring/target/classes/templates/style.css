@@ -1,0 +1,130 @@
+/* CSS Document for screens*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+body {
+  font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+  margin: 0;
+  color: #555;
+  padding: 0;
+}
+
+/*Text*/
+
+h1{
+text-align: center;
+}
+
+p{
+  margin: 0 0 1em 0
+}
+ a{
+   color:#007eff;
+ }
+
+  a:visted{
+    color:#65b1ff
+  }
+
+
+
+/*header*/
+
+header{
+background: #B2D3A8;
+border-style: solid
+}
+
+p.solid{
+border-style: solid;
+}
+header a. logo{
+position: absolute;
+display:block;
+width: 160px;
+height: 66px;
+backgrund: url(plant1.jpg) no-repeat: 0 0;
+background-size: contain
+top: 15px;
+left: 20px
+
+}
+
+img{
+border-radius: 20px;
+opacity: 0.9;
+width: 100%;
+height: 100%;
+}
+
+body{
+background-color: #53c68c;
+}
+
+/*section all*/
+
+section{
+padding: 0 30px;
+}
+section::after {content:''; display: block:both;
+}
+
+/*section Main*/
+
+section.main{
+text-size:100px;
+margin-top: 20px;
+margin-bottom: 30px;
+padding: 0;
+
+}
+
+section.main aside{
+width: 33%;
+float: left;
+text-align: center;
+}
+section.main.content{
+margin: 15px
+background:no-repeat center top;
+background-size: 75px 74px;
+padding-top: 85px;
+}
+
+
+
+/*images*/
+img[src="gardentools.jpg"] {
+  border: none;
+  background: solid;
+background-color:#ffccff;
+  box-shadow: none;
+  width: 100px;
+  height: 100px
+}
+
+img[src="plants2.jpg"]{
+width: 100px;
+height: 100px;
+}
+
+img[src="books.jpg"]{
+height: 50px;
+width: 50px;
+}
+
+footer{
+background-color:#ffccff;
+height: 30%;
+
+}
+
+
+
+
+
+
+
+
